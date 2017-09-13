@@ -1,5 +1,10 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1 Robin and Kim's Backpacking Gear Checklist
+  p
+    ul
+    each item in itemName
+      li= item
+
+  p #{isChecked}
