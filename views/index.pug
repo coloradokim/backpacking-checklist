@@ -1,10 +1,17 @@
 extends layout
 
 block content
-  h1 Robin and Kim's Backpacking Gear Checklist
-  p
-    ul
-    each item in itemName
-      li= item
 
-  p #{isChecked}
+  h1 Kim and Robin's Backpacking Gear Checklist
+
+  table
+    tr
+      td Item
+      td Value
+      td Person
+
+      each item in gearInfo.itemName
+        tr
+          td= item
+          td= false
+          td= ''

@@ -1,8 +1,17 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 2rem;
+  font: 14px "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+}
+
+tr:nth-child(even) {
+    background-color: #D3D3D3;
 }
